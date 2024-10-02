@@ -1,0 +1,28 @@
+const RESOURCE_URL = import.meta.env.VITE_RESOURCE_URL;
+
+const CANDIDATE_LOGIN = `${RESOURCE_URL}/candidate/token`;
+const CANDIDATE_REGISTER = `${RESOURCE_URL}/candidate`;
+const FORGOT_PASSWORD = `${RESOURCE_URL}/candidate/forgot-password`;
+const RESET_PASSWORD = `${RESOURCE_URL}/candidate/reset-password`;
+
+
+const CANDIDATE__MCQ_EXAMPLE = `${RESOURCE_URL}/exam/mcq/candidate`;
+const CANDIDATE_CODING_EXAMPLE = `${RESOURCE_URL}/exam/coding/candidate`;
+const CANDIDATE_ANSWER_CHECK = `${RESOURCE_URL}/exam/answercheck`;
+const CANDIDATE_ANSWER_CHECK_CODING = `${RESOURCE_URL}/exam/answercheck/coding`;
+
+const CANDIDATE_PREVIOUS_ASSESSMENTS = `${RESOURCE_URL}/exam/previous/assessment`;
+
+const URLs = {
+  CANDIDATE_LOGIN,
+  CANDIDATE_REGISTER,
+  CANDIDATE__MCQ_EXAMPLE,
+  CANDIDATE_CODING_EXAMPLE,
+  CANDIDATE_ANSWER_CHECK,
+  CANDIDATE_ANSWER_CHECK_CODING,
+  CANDIDATE_PREVIOUS_ASSESSMENTS,
+  FORGOT_PASSWORD,
+  RESET_PASSWORD
+};
+
+export default URLs;

@@ -1,0 +1,20 @@
+.tab-link {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tab-link.active {
+  background-color: white;
+  color: #B60000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 1; 
+}
+
+.tab-link:not(.active):hover {
+  opacity: 0.6;
+}
+
+.interview-tab-item.active {
+  background-color: #4a90e2; 
+  color: #ffffff;
+}
